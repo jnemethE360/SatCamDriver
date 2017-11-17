@@ -1,0 +1,6 @@
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\bin\Debug\NasaMini.exe.config
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\bin\Debug\NasaMini.exe
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\bin\Debug\NasaMini.pdb
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\obj\Debug\NasaMini.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\obj\Debug\NasaMini.exe
+c:\users\jason\documents\visual studio 2015\Projects\NasaMini\NasaMini\obj\Debug\NasaMini.pdb
