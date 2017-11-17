@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<designDiagram dslVersion="1.0.0.0" Id="0280be2a-5a62-49df-ae90-8b0b78849f15" absoluteBounds="0, 0, 11, 8.5" name="VideoDesign">
+  <exampleModelMoniker Id="09688583-9102-4fcd-ae49-1bfe8efc314d" />
+  <nestedChildShapes>
+    <contractShape Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" absoluteBounds="1, 1.5, 1.5, 1.0516910807291664">
+      <contractClassMoniker Id="9f18da99-448d-4aff-bef2-5682f542e696" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bca9d3b8-3eab-4a4d-a1bc-f057835b059d" absoluteBounds="1.0150000000000001, 2.01, 1.4700000000000002, 0.44169108072916663" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <contractDocumentationShape Id="1b5a7970-5303-44ec-983a-2e4f37dcbdc4" absoluteBounds="0.75, 2.875, 2, 3.2430582682291655">
+      <contractDocumentationClassMoniker Id="3527cd66-adeb-4af3-86ea-ce43d8c5e93e" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ebf5140-5492-4ae8-950b-29f90b2614c6" absoluteBounds="0.76499999999999968, 3.385, 1.9700000000000002, 0.44169108072916663" name="SupportedVersionsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="cfc86208-150d-4fab-a6e9-19a7c5622537" absoluteBounds="0.765, 3.8366910807291665, 1.9700000000000002, 0.82629394531249989" name="SupportedOperatingSystemsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="d478430d-de09-45c2-908c-fec1d5391055" absoluteBounds="0.765, 4.6729850260416663, 1.9700000000000002, 0.2493896484375" name="SupportedModelsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0ccc5a55-387a-4806-9a0b-30df9b46337a" absoluteBounds="0.765, 4.9323746744791661, 1.9700000000000002, 0.8262939453125" name="SdkInstallationLocationsComartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="ac4c7c3f-bfd3-4bc9-9260-90d4e9bdf9f9" absoluteBounds="0.765, 5.7686686197916659, 1.9700000000000002, 0.2493896484375" name="IncompatibleDevicesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractDocumentationShape>
+    <contractDocumentConnector Id="d19de500-f1fd-462c-a129-606329eb7b25" edgePoints="[(1.75 : 2.55169108072917); (1.75 : 2.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractDocumentationClassMoniker Id="a96e47ad-2975-450c-9e9a-cafa056db094" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractDocumentationShapeMoniker Id="1b5a7970-5303-44ec-983a-2e4f37dcbdc4" />
+      </nodes>
+    </contractDocumentConnector>
+    <contractShape Id="5976132d-94d5-4967-a757-3e8d984934fb" absoluteBounds="7.625, 1.5, 1.5, 0.85938964843749988">
+      <contractClassMoniker Id="d1db0157-057a-4dcb-bd58-7a2d65e3e598" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b718b007-1d31-4447-80dc-8ea122d467c1" absoluteBounds="7.6400000000000006, 2.01, 1.4700000000000002, 0.2493896484375" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <contractVideoControlShape Id="a0fc9ea0-f951-4745-853f-946795ac7074" absoluteBounds="1, 0.5, 1.5, 0.5">
+      <contractVideoControlClassMoniker Id="17f85b63-054e-437b-896c-74c63a54359f" />
+    </contractVideoControlShape>
+    <contractVideoControlConnector Id="c7129d25-ed68-422f-988d-089cd6ef679b" edgePoints="[(1.75 : 1.5); (1.75 : 1)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractVideoControlClassMoniker Id="1b1481b9-4409-42f8-bf94-761f6f08ea0e" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractVideoControlShapeMoniker Id="a0fc9ea0-f951-4745-853f-946795ac7074" />
+      </nodes>
+    </contractVideoControlConnector>
+  </nestedChildShapes>
+</designDiagram>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="09688583-9102-4fcd-ae49-1bfe8efc314d" xmlns="http://schemas.microsoft.com/dsltools/DriverDesign">
+  <contractClasses>
+    <exampleModelHasContractClasses Id="7fdbdff8-16c3-4b3a-bb9d-b3ea2f6b8729">
+      <contractClass Id="9f18da99-448d-4aff-bef2-5682f542e696" productName="AXIS Server" productUrl="http://www.axis.com/us/en/products/axis-p32-series" productDescription="AXIS P32 Series consists of vandal resistant cameras for indoor and outdoor installation. They meet both the quality and cost demands of the market, while at the same time being easy to use and operate." productCategory="CCTV" productImage="Images.manufacturerlogo.jpg" productImageCaption="AXIS" manufacturerName="Axis Communications" manufacturerDescription="Axis offers intelligent security solutions that enable a smarter, safer world. As the global market leader in network video, Axis is driving the industry by continually launching innovative network products based on an open platform - delivering high value to customers through a global partner network." manufacturerUrl="http://www.axis.com/" manufacturerSupportUrl="http://www.axis.com/us/en/learning-and-support" manufacturerImage="Images.manufacturerlogo.jpg" manufacturerImageCaption="Axis Communications" secureDevice="true" networkDevice="true" name="VideoServer" productImage16x16="Images.server16.png" productImage24x24="Images.server24.png" productImage32x32="Images.server32.png" productImage64x64="Images.server64.png" childVideoContract="false" videoExport="true" videoExportMaximumExports="1" presets="true" connectableDevice="false" raisesCustomStates="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="4b8b3993-42b6-4a8a-94f8-a140b0065764">
+            <contractPropertyClass Id="27b4973c-7c5a-4595-80c1-ce0500498ad2" name="zoomSpeed" type="int" displayName="Zoom Speed" defaultValue="200" minimumValue="1" maximumValue="10000" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <contractDocumentationClass>
+          <contractClassReferencesContractDocumentationClass Id="a96e47ad-2975-450c-9e9a-cafa056db094">
+            <contractDocumentationClassMoniker Id="3527cd66-adeb-4af3-86ea-ce43d8c5e93e" />
+          </contractClassReferencesContractDocumentationClass>
+        </contractDocumentationClass>
+        <contractVideoControlClass>
+          <contractClassReferencesContractVideoControlClass Id="1b1481b9-4409-42f8-bf94-761f6f08ea0e">
+            <contractVideoControlClassMoniker Id="17f85b63-054e-437b-896c-74c63a54359f" />
+          </contractClassReferencesContractVideoControlClass>
+        </contractVideoControlClass>
+      </contractClass>
+    </exampleModelHasContractClasses>
+    <exampleModelHasContractClasses Id="c09fb8c7-f87e-4453-8a44-e18a218fbed3">
+      <contractClass Id="d1db0157-057a-4dcb-bd58-7a2d65e3e598" productName="AXIS Camera" productUrl="http://www.axis.com/us/en/products/axis-p32-series" productDescription="Simply attractive. Streamlined and versatile varifocal fixed domes." productCategory="CCTV" productImage="Images.manufacturerlogo.jpg" productImageCaption="AXIS Network Camera" manufacturerName="AXIS Communications" manufacturerDescription="Axis offers a wide portfolio of IP-based products and solutions for security and video surveillance." manufacturerUrl="http://www.axis.com/us/en" manufacturerSupportUrl="http://www.axis.com/us/en/learning-and-support" manufacturerImage="Images.manufacturerlogo.jpg" manufacturerImageCaption="AXIS Communications" secureDevice="false" networkDevice="false" name="VideoCamera" productImage16x16="Images.camera16.png" productImage24x24="Images.camera24.png" productImage32x32="Images.camera32.png" productImage64x64="Images.camera64.png" childVideoContract="true" videoExportMaximumExports="1" ptz="true" presets="true" connectableDevice="false" raisesCustomStates="false" />
+    </exampleModelHasContractClasses>
+  </contractClasses>
+  <contractDocumentationClasses>
+    <exampleModelHasContractDocumentationClasses Id="98ff97d2-0518-4c25-ae0b-e019e038c3b6">
+      <contractDocumentationClass Id="3527cd66-adeb-4af3-86ea-ce43d8c5e93e" configurationDiagramImage="configurationdiagram.png" onlineStateMethod="SdkOrQueryDevice" authenticationMethod="Basic" cameraPopulationMethod="QueryDevice" timeBarPopulationMethod="QueryDevice" additionalInstallationDetailsDocument="additionalinstallationdetails.xml" additionalConfigurationDetailsDocument="additionalconfigurationdetails.xml" getPreset="false" setPreset="true" webClient="false">
+        <contractDocumentSupportedVersionClasses>
+          <contractDocumentationClassHasContractDocumentSupportedVersionClasses Id="1cc7b55b-88b1-4707-9dde-f38553d7fd5f">
+            <contractDocumentSupportedVersionClass Id="1459d0c5-1570-4f94-84fe-5d089834285b" name="4.7" />
+          </contractDocumentationClassHasContractDocumentSupportedVersionClasses>
+        </contractDocumentSupportedVersionClasses>
+        <contractDocumentSupportedOperatingSystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses Id="35efd414-7e55-4fe7-8a8d-dff27cff4af2">
+            <contractDocumentSupportedOperatingSystemClass Id="54d81516-a831-44a2-8dd1-3bb7aadc7b4f" operatingSystem="WindowsServer2008R2" capacity="ServerSide" />
+          </contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses Id="80608d74-d9eb-44d1-808d-0e0b1e42da9e">
+            <contractDocumentSupportedOperatingSystemClass Id="c0b0f9c4-9724-4fd7-a7ab-e17881a5f68a" operatingSystem="WindowsServer2012" capacity="ServerSide" />
+          </contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses Id="49b0ea09-35ea-4fa6-9a88-33cadeb63f09">
+            <contractDocumentSupportedOperatingSystemClass Id="597e931d-8e99-44da-88b8-08ff8cdffa9a" operatingSystem="Windows7x64" capacity="ClientSide" />
+          </contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses>
+        </contractDocumentSupportedOperatingSystemClasses>
+        <contractDocumentSdkInstallationLocationClasses>
+          <contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses Id="c9eea992-7a77-4d80-91fb-e4f2366a1357">
+            <contractDocumentSdkInstallationLocationClass Id="cc09b08c-6133-47bb-a52b-803ff466ce89" location="Client" />
+          </contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses>
+          <contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses Id="c6cb2932-5d7a-44b7-9769-aae528371694">
+            <contractDocumentSdkInstallationLocationClass Id="91be3092-f7b0-4a06-81a4-8504f7ac4ca4" location="VideoExportServer" />
+          </contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses>
+          <contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses Id="d54e7f52-7a2e-4ba1-885a-380f3c82a067">
+            <contractDocumentSdkInstallationLocationClass Id="67d8ea19-b98f-48fb-a1ca-cf4056071250" location="ConnectionManager" />
+          </contractDocumentationClassHasContractDocumentSdkInstallationLocationClasses>
+        </contractDocumentSdkInstallationLocationClasses>
+      </contractDocumentationClass>
+    </exampleModelHasContractDocumentationClasses>
+  </contractDocumentationClasses>
+  <contractVideoControlClasses>
+    <exampleModelHasContractVideoControlClasses Id="a27a8eed-57ed-46b6-9c0a-97e1caa201bb">
+      <contractVideoControlClass Id="17f85b63-054e-437b-896c-74c63a54359f" playbackSpeeds="1" slowMotionSpeeds="1" />
+    </exampleModelHasContractVideoControlClasses>
+  </contractVideoControlClasses>
+</exampleModel>
